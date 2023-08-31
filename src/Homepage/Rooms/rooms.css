@@ -1,0 +1,79 @@
+#Rooms {
+  width: 90%;
+  margin: 0 auto;
+  height: 100vh;
+}
+.roomsSection {
+  display: flex;
+  align-items: center;
+  color: palevioletred;
+}
+.roomsTitle {
+  font-size: 36px;
+  font-weight: 300;
+  text-align: center;
+  padding: 20px 0px;
+}
+.roomsWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 30px 50px 30px;
+}
+.roomCard {
+  flex: 1;
+  border-left: 20px solid black;
+  position: relative;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.roomImg {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+  z-index: 0;
+}
+.roomInfo {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 50px;
+  left: 20px;
+  z-index: 3;
+  color: white;
+  opacity: 0;
+}
+.roomInfo h2 {
+  font-size: 60px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.roomInfo p {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.roomInfo button {
+  width: fit-content;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  background: black;
+  color: white;
+  font-size: 16px;
+}
+
+.roomCard:hover {
+  .roomImg {
+    transform: scale(1.1);
+    transition: ease-in;
+    filter: brightness(70%);
+  }
+  .roomInfo {
+    opacity: 1;
+    transition: all ease-in;
+  }
+}

@@ -1,0 +1,70 @@
+#Footer {
+  background-color: #313638;
+  color: #f7fff7;
+  height: 20vh;
+}
+.footerWrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+.footerLeft {
+  flex: 1;
+  font-size: 40px;
+  font-weight: 500;
+}
+.footerCenter {
+  flex: 3;
+  padding: 30px;
+}
+.footerRight {
+  flex: 1;
+  background-color: red;
+}
+.footerCenter ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footerCenter ul li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 18px;
+  font-weight: 400;
+}
+.footerSocials ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10px;
+}
+.footerSocials ul li {
+  text-decoration: none;
+  list-style: none;
+  padding: 5px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+}
+.facebook:hover {
+  color: blue;
+  transform: scale(1.1);
+}
+.insta:hover {
+  color: pink;
+  transform: scale(1.1);
+}
+.pinterest:hover {
+  color: red;
+  transform: scale(1.1);
+}
+.web:hover {
+  color: green;
+  transform: scale(1.1);
+}

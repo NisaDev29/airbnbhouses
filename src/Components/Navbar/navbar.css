@@ -1,0 +1,45 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 6;
+  height: 10vh;
+  padding: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.navWrapper {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.navWrapper h1 {
+  text-align: center;
+}
+.navMenu {
+  display: flex;
+  gap: 1rem;
+}
+.navlink {
+  text-decoration: none;
+  color: black;
+}
+.navEnd {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.navButton {
+  padding: 10px;
+  border: none;
+  outline: 1px solid black;
+  background-color: transparent;
+  border-radius: 3px;
+  transform: translate(2);
+}
+.navButton:hover {
+  background-color: #313638;
+  color: white;
+}

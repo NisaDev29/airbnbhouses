@@ -1,0 +1,65 @@
+.dhomaTabPanel {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.dhomaTabDesc {
+  flex: 2;
+  border-right: 1px solid lightgrey;
+}
+.dhomaTabDetails {
+  flex: 1;
+}
+.dhomaTabDetails ul {
+  list-style: none;
+  padding-left: 0;
+}
+.dhomaTabList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+.dhomaTabTitle {
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+.dhomaRules {
+  flex: 1;
+  border-right: 1px solid lightgray;
+}
+.dhomaFacilities {
+  flex: 2;
+}
+.dhomaRule {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 16px;
+}
+.dhomaFacility {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+  flex-wrap: wrap;
+  height: 320px;
+}
+.dhomaEachFacility span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.dhomaEachFacility h4 {
+  font-weight: 500;
+  padding-top: 5px;
+}
+.dhomaEachFacility ul {
+  margin-left: 20px;
+  padding-top: 10px;
+}

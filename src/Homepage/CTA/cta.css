@@ -1,0 +1,38 @@
+#CTA {
+  background: url("https://images.pexels.com/photos/4239013/pexels-photo-4239013.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#ctaBanner {
+  background: transparent;
+  height: 300px;
+}
+#ctaBanner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding-left: 60%;
+}
+#ctaBanner > h2 {
+  font-size: 40px;
+}
+#ctaBanner > p {
+  font-size: 20px;
+  font-weight: 600;
+  padding-right: 50%;
+  font-style: italic;
+}
+#ctaBanner > button {
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  background-color: #313638;
+  color: white;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 40%;
+  margin-top: 10px;
+}

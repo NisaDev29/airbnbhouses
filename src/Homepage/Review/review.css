@@ -1,0 +1,52 @@
+.reviewWrapper {
+  padding: 50px 0px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+}
+.reviewCol--One {
+  flex: 1 1 33%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.reviewCard {
+  padding: 25px 30px;
+}
+
+.centerCard:nth-child(1),
+.right:nth-child(2),
+.firstQuote:nth-child(3),
+.centerCard:nth-child(3) {
+  background-color: #313638;
+  color: white;
+  position: relative;
+}
+.reviewText {
+  font-size: 16px;
+  line-height: 1.2rem;
+  padding-bottom: 10px;
+}
+.reviewAuthor {
+  font-weight: bold;
+}
+.firstQuote:nth-child(2),
+.right:nth-child(1),
+.right:nth-child(3),
+.centerCard:nth-child(2) {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.reviewIcon {
+  background-color: white;
+  border-radius: 50%;
+  color: black;
+  position: absolute;
+  top: -15px;
+  left: 44%;
+  border: 1px solid black;
+}
