@@ -29,6 +29,10 @@
   font-weight: 400;
   cursor: pointer;
 }
+.lrText p a {
+  text-decoration: none;
+  color: inherit;
+}
 .lrOther {
   color: gray;
   padding: 0;
