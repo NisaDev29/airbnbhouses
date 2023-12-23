@@ -26,6 +26,10 @@
   text-decoration: none;
   color: black;
 }
+.navTitle {
+  text-decoration: none;
+  color: black;
+}
 .navEnd {
   display: flex;
   align-items: center;

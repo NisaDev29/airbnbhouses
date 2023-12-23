@@ -37,6 +37,11 @@
   background-color: #313638;
   color: #f7fff7;
   border-radius: 3px;
+  text-decoration: none;
+}
+.heroButton a {
+  text-decoration: none;
+  color: #f7fff7;
 }
 .heroRight {
   flex: 1;

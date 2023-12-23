@@ -1,5 +1,6 @@
 import React from "react";
 import './rooms.css';
+import { Link } from "react-router-dom";
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 const Rooms = () => {
     return (
@@ -12,7 +13,7 @@ const Rooms = () => {
                 <div className="roomInfo">
                     <h2>Rooms</h2>
                     <p>Bedroom for two, with personal bathroom and street view!</p>
-                    <button>View More</button>
+                    <button><Link to='/units'>View More</Link></button>
                 </div>
             </div>
             <div className="roomCard">
@@ -20,7 +21,7 @@ const Rooms = () => {
                 <div className="roomInfo">
                     <h2>Apartments</h2>
                     <p>Small Apartment, with Kitchen, Bathroom and Balcony!</p>
-                    <button>View More</button>
+                    <button><Link to='/units'>View More</Link></button>
                 </div>
             </div>
             </div>

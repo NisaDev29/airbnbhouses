@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="footerCenter">
           <ul>
             <li><Link to='/' style={{textDecoration:"none", color:"inherit"}}>Home</Link></li>
-            <li><Link to='/' style={{textDecoration:"none", color:"inherit"}}>About</Link></li>
+            <li><Link to='/about' style={{textDecoration:"none", color:"inherit"}}>About</Link></li>
             <li><Link to='/units' style={{textDecoration:"none", color:"inherit"}}>Units</Link></li>
             <li><Link to='/contact' style={{textDecoration:"none", color:"inherit"}}>Contact</Link></li>
           </ul>

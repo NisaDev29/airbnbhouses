@@ -24,10 +24,10 @@
 }
 .roomCard {
   flex: 1;
-  border-left: 20px solid black;
+
   position: relative;
   overflow: hidden;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
 }
 
 .roomImg {
@@ -65,8 +65,13 @@
   color: white;
   font-size: 16px;
 }
+.roomInfo button a {
+  text-decoration: none;
+  color: white;
+}
 
 .roomCard:hover {
+  overflow: hidden;
   .roomImg {
     transform: scale(1.1);
     transition: ease-in;

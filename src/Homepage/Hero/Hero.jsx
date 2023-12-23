@@ -1,6 +1,6 @@
 import React from 'react'
 import './hero.css'
-
+import { Link } from 'react-router-dom'
 const Hero = () => {
   return (
     <div id="hero">
@@ -15,7 +15,7 @@ const Hero = () => {
                 with the best prices in the market. No 
                 hidden costs. Pay at the property. 
                 </p>
-                <button className='heroButton'>Book Now</button>
+                <button className='heroButton'><Link to='/contact'>Book Now</Link></button>
             </div>
             <div className="heroRight">
                <img src="https://images.pexels.com/photos/4352247/pexels-photo-4352247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
