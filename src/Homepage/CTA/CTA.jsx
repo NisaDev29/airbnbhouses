@@ -8,7 +8,7 @@ const CTA =()=> {
         <div id="CTA">
             <section id="ctaBanner">
                 <h2>"Quality is never an accident. It is always the result of an intelligent effort."</h2>
-                <p>─John Ruskin</p>
+                <h4>─John Ruskin</h4>
                 <button><Link className="ctaButton" to='/contact'> Make An Inquary Now </Link></button>
             </section>
         </div>

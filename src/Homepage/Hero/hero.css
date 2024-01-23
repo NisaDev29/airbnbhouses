@@ -1,6 +1,6 @@
 #hero {
-  height: 90vh;
-  margin: 10px 50px 10px 50px;
+  min-height: 90vh;
+  margin: 0.6rem 3.125rem;
 }
 .heroWrapper {
   display: flex;
@@ -14,13 +14,11 @@
   padding: 20px;
 }
 .heroTitle {
-  font-size: 3.5rem;
   font-weight: 600;
   padding: 20px 20px 0px 20px;
 }
 .heroTitle b {
   color: palevioletred;
-  font-size: 3.5rem;
 }
 .heroSub {
   font-weight: 400;
@@ -28,12 +26,15 @@
   padding: 20px;
 }
 .heroButton {
-  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   margin-left: 20px;
+}
+.heroButton > button {
   padding: 0.7em 7em;
   border: none;
   outline: none;
-  font-size: 18px;
   background-color: #313638;
   color: #f7fff7;
   border-radius: 3px;
@@ -61,17 +62,29 @@
     position: relative;
     width: 100%;
     height: 90vh;
-    margin: 0px 0px;
+    margin: 0;
   }
   .heroWrapper {
     padding: 0;
     margin: 0;
   }
   .heroLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     z-index: 1;
     position: absolute;
-    top: 0;
+    top: 100px;
     left: 0;
+    padding: 2rem;
+    text-align: center;
+  }
+  .heroSub {
+    font-size: 2ch;
+    color: black;
+  }
+  .heroRight {
     padding: 0;
   }
   .heroRight img {
@@ -81,5 +94,22 @@
   }
   .heroTitle {
     font-size: 3rem;
+  }
+}
+@media (max-width: 550px) {
+  .heroSub {
+    display: none;
+  }
+  .heroButton {
+    margin-top: 5rem;
+  }
+  .heroTitle {
+    font-size: 36px;
+  }
+  .heroButton > button {
+    padding: 0.7rem 4rem;
+    color: #313638;
+    background-color: palevioletred;
+    border: 1px solid #313638;
   }
 }
