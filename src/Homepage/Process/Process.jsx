@@ -35,7 +35,7 @@ const Process = () => {
                     <img src={step1} alt="" />
                     <span>1</span>
                 </div>
-                <h1>{Steps[0].step}</h1>
+                <h4>{Steps[0].step}</h4>
                 <p>{Steps[0].message}</p>
             </div>
             <div className="stepsCard">
@@ -43,7 +43,7 @@ const Process = () => {
                 <img src={step2} alt="" />
                     <span>2</span>
                 </div>
-                <h1>{Steps[1].step}</h1>
+                <h4>{Steps[1].step}</h4>
                 <p>{Steps[1].message}</p>
             </div>
             <div className="stepsCard">
@@ -51,7 +51,7 @@ const Process = () => {
                 <img src={step3} alt="" />
                     <span>3</span>
                 </div>
-                <h1>{Steps[2].step}</h1>
+                <h4>{Steps[2].step}</h4>
                 <p>{Steps[2].message}</p>
             </div>
             <div className="stepsCard">
@@ -59,11 +59,13 @@ const Process = () => {
                 <img src={step4} alt="" />
                     <span>4</span>
                 </div>
-                <h1>{Steps[3].step}</h1>
+                <h4>{Steps[3].step}</h4>
                 <p>{Steps[3].message}</p>
             </div>
         </div>
-        <button className="processButton"><Link to="/units" style={{textDecoration:"none", color:"inherit"}}>Check Out Our Units Now</Link></button>
+        <div className="processButton">
+        <button ><Link to="/units" style={{textDecoration:"none", color:"inherit"}}>Check Out Our Units Now</Link></button>
+        </div>
        </div>
     )
 }

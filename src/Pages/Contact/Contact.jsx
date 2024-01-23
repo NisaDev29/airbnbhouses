@@ -52,17 +52,15 @@ const Contact = () => {
                 <h3>Contact Us</h3>
                 <div className='ctMethods'>
                     <h5>Call Us</h5>
-                    <p><PhoneIcon sx={{backgroundColor:"palevioletred", borderRadius:"50%", padding:"3px"}} /> +34 234 234 333</p>
+                    <p><PhoneIcon sx={{backgroundColor:"palevioletred", borderRadius:"50%", padding:"3px"}} /> +355 234 234 333</p>
                 </div>
                 <div  className='ctMethods'>
                     <h5>Email Us</h5>
-                    <p><AlternateEmailIcon sx={{backgroundColor:"palevioletred", borderRadius:"50%", padding:"3px"}}/> studio@gmail.com</p>
+                    <p><AlternateEmailIcon sx={{backgroundColor:"palevioletred", borderRadius:"50%", padding:"3px"}}/> example@gmail.com</p>
                 </div>
                 <div  className='ctMethods'>
                     <h5>Address</h5>
                     <p><PinDropIcon sx={{backgroundColor:"palevioletred", borderRadius:"50%", padding:"3px"}}/> Tirana</p>
-                    <p>Rruga Bilal Golemi</p>
-                    <p>Hyrja 7 , 1019</p>
                     <p>Albania</p>
                 </div>
             </div>

@@ -3,17 +3,17 @@ import './listunit.css'
 import StarRateRoundedIcon from '@mui/icons-material/StarRateRounded';
 import { Link } from 'react-router-dom';
 
-const ListRoom = () => {
+const ListRoom = ({id, img, unitName, price, guests, beds, type, desc, stars}) => {
   return (
     <div className="listRoom">
-       <img src="https://i.pinimg.com/736x/2a/72/01/2a7201c87a52b7017b2850f3c70fea1b.jpg" alt="Room" />
+       <img src={img} alt="Room" />
        <div className="lrText">
-        <p className='lrTitle'><Link to='/single'>Olimpic Park Studio</Link></p>
-        <span className='lrOther'>Studio | 2 beds | 2 guests</span>
-        <span className='lrOther'>Studio with inside bathroom and street view.</span>
+        <p className='lrTitle'><Link to={`/units/:${id}`}>{unitName}</Link></p>
+        <span className='lrOther'>{type} | {beds} beds | {guests} guests</span>
+        <span className='lrOther'>{desc}</span>
         <div className='lrRating'>
-          <span className='lrRate'><StarRateRoundedIcon fontSize='small'/> 4/5  </span>
-          <span className='lrPrice'>$40</span>
+          <span className='lrRate'><StarRateRoundedIcon fontSize='small'/> {stars}/5  </span>
+          <span className='lrPrice'>${price}</span>
         </div>
        </div>
     </div>

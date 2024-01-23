@@ -1,6 +1,8 @@
 #Process {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  width: 100%;
+  padding: 0em 8.5em;
 }
 .processSub {
   padding-left: 10%;
@@ -10,14 +12,12 @@
   align-items: center;
 }
 .processHeader {
-  font-size: 32px;
   font-weight: 500;
   text-align: center;
   padding-bottom: 30px;
   color: black;
 }
 .processWrapper {
-  width: 80%;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -45,25 +45,53 @@
   font-weight: 600;
   color: lightgray;
 }
-.stepsCard > h1 {
+.stepsCard > h4 {
   padding-top: 10px;
   color: black;
-  font-size: 20px;
 }
 .stepsCard > p {
   padding-top: 10px;
   font-weight: 500;
 }
 .processButton {
-  margin-top: 50px;
-  margin-left: 40%;
-  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2em 0em;
+}
+.processButton > button {
+  padding: 0.7em 2em;
   border: none;
   outline: none;
   background-color: #313638;
   color: white;
   border-radius: 3px;
-  font-size: 16px;
   font-weight: 400;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media (max-width: 800px) {
+  #Process {
+    padding: 0em 3.5em;
+  }
+  .processWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 400px) {
+  #Process {
+    padding: 0em 2em;
+  }
+  .processWrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .stepsCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }

@@ -3,12 +3,14 @@ import Footer from '../../Components/Footer/Footer';
 import ListUnit from '../../Components/ListUnit/ListUnit';
 import Navbar from '../../Components/Navbar/Navbar';
 import './units.css'
+import {UnitData} from '../../Assets/Data';
+
 const Units = () => {
   return (
     <div className="units">
       <Navbar/>
       <div className="unitContainer">
-        <div className="unitFilter">
+        {/* <div className="unitFilter">
           <h3 className='unitTitle'>FILTER</h3>
           <form>
             <div className='unitFilterInput'>
@@ -37,16 +39,23 @@ const Units = () => {
             </div>
             <button className='unitButton'>FILTER</button>
           </form>
-        </div>
+        </div> */}
         <div className="unitWrapper">
-          <h3 className='unitTitle'>ALL PRODUCTS</h3>
+          <h3 className='unitTitle'>ALL UNITS</h3>
           <div className='unitList'>
-            <ListUnit/>
-            <ListUnit/>
-            <ListUnit/>
-            <ListUnit/>
-            <ListUnit/>
-            <ListUnit/>
+            {UnitData.map((unit)=>{
+              return <ListUnit
+              id={unit.id}
+              img={unit.img}
+              unitName={unit.unitName}
+              guests={unit.guests}
+              beds={unit.beds}
+              type={unit.type}
+              desc={unit.desc}
+              price={unit.price}
+              stars={unit.stars}
+              />
+            })}
           </div>
         </div>
         </div>

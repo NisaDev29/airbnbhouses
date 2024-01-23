@@ -14,15 +14,15 @@
   padding: 20px;
 }
 .heroTitle {
-  font-size: 56px;
+  font-size: 3.5rem;
   font-weight: 600;
   padding: 20px 20px 0px 20px;
 }
 .heroTitle b {
   color: palevioletred;
+  font-size: 3.5rem;
 }
 .heroSub {
-  font-size: 20px;
   font-weight: 400;
   color: gray;
   padding: 20px;
@@ -30,7 +30,7 @@
 .heroButton {
   margin-top: 10px;
   margin-left: 20px;
-  padding: 10px 70px;
+  padding: 0.7em 7em;
   border: none;
   outline: none;
   font-size: 18px;
@@ -55,4 +55,31 @@
   object-position: center;
   filter: contrast(120%);
   border-radius: 3px;
+}
+@media screen and (max-width: 1000px) {
+  #hero {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    margin: 0px 0px;
+  }
+  .heroWrapper {
+    padding: 0;
+    margin: 0;
+  }
+  .heroLeft {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+  }
+  .heroRight img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .heroTitle {
+    font-size: 3rem;
+  }
 }

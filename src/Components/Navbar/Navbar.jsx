@@ -12,7 +12,7 @@ const Navbar = () => {
           <Link className='navlink' to="/units">UNITS</Link>
           <Link className='navlink' to="/contact">CONTACTS</Link>
         </div>
-        <h1><Link to='/' className='navTitle'>STUDIO.</Link></h1>
+        <h2><Link to='/' className='navTitle'>STUDIO.</Link></h2>
         <div className='navEnd'>
           <AccountCircleIcon/>
           <button className='navButton'><Link style={{textDecoration:"none", color:"inherit"}} to="/contact"> GET IN TOUCH</Link></button>

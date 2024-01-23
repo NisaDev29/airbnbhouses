@@ -7,7 +7,7 @@
   padding-bottom: 50px;
   gap: 1rem;
 }
-.unitFilter {
+/* .unitFilter {
   width: 250px;
   padding: 20px;
   border-right: 1px solid lightgray;
@@ -60,16 +60,22 @@
   margin-top: 10px;
   cursor: pointer;
   color: white;
-}
+} */
 .unitWrapper {
   width: 100%;
-  padding: 20px;
+  padding: 0px 20px;
 }
 .unitList {
+  padding-top: 10px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 3rem;
   align-items: center;
   justify-content: center;
+}
+.unitTitle {
+  font-size: 1.5rem;
+  text-align: center;
+  border-bottom: 1px solid lightgray;
 }

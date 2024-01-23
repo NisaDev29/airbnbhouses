@@ -1,10 +1,10 @@
 .listRoom {
   display: block;
   background-color: white;
-  width: 280px;
+  width: 330px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   margin-top: 20px;
-  border-radius: 5px;
+  border-radius: 7px;
   height: 380px;
 }
 .listRoom > img {

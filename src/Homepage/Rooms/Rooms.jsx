@@ -17,7 +17,7 @@ const Rooms = () => {
                 </div>
             </div>
             <div className="roomCard">
-                    <img className="roomImg" src="https://i.pinimg.com/474x/39/02/6c/39026cc8e89a23ecfff29b37a2132d71.jpg" alt="" />
+                    <img className="roomImg" src="https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
                 <div className="roomInfo">
                     <h2>Apartments</h2>
                     <p>Small Apartment, with Kitchen, Bathroom and Balcony!</p>
