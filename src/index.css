@@ -11,8 +11,11 @@ h1 {
 h2 {
   font-size: clamp(18px, 8vw, 40px);
 }
+h3 {
+  font-size: clamp(16px, 8vw, 30px);
+}
 h4 {
-  font-size: clamp(16px, 8vw, 20px);
+  font-size: clamp(14px, 8vw, 20px);
 }
 
 p {
@@ -20,6 +23,10 @@ p {
 }
 button {
   font-size: clamp(12px, 7vw, 16px);
+}
+a {
+  text-decoration: none;
+  color: inherit;
 }
 /* @media screen and (max-width: 1000px) {
   *,

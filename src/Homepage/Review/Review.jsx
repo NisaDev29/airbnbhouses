@@ -23,7 +23,7 @@ const Review = () => {
                     <p className="reviewAuthor">Mike SMith</p>
                 </div>
             </div>
-            <div className="reviewCol--One">
+            <div className="reviewCol--One reviewResponsive">
                 <div className="reviewCard centerCard">
                 <FormatQuoteIcon fontSize="large" className="reviewIcon"/>
                     <p className="reviewText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, nemo.</p>
@@ -39,7 +39,7 @@ const Review = () => {
                     <p className="reviewAuthor">Mike SMith</p>
                 </div>
             </div>
-            <div className="reviewCol--One">
+            <div className="reviewCol--One ">
                 <div className="reviewCard right">
                     <p className="reviewText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam laudantium voluptas repudiandae optio repellat commodi explicabo obcaecati cum, mollitia ipsam in non soluta deserunt, vero minima velit vel adipisci? Autem?</p>
                     <p className="reviewAuthor">Mike SMith</p>

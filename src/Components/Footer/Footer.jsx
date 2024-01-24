@@ -19,9 +19,9 @@ const Footer = () => {
         </div>
         <div className="footerSocials">
           <ul>
-            <li className='facebook'><FacebookOutlined/></li>
-            <li className='insta'><Instagram/></li>
-            <li className='pinterest'><Pinterest/></li>
+            <li className='facebook'><a href="https://www.facebook.com/" rel="noreferrer" target='_blank'><FacebookOutlined/></a></li>
+            <li className='insta'><a href="https://www.instagram.com/" rel="noreferrer" target='_blank'><Instagram/></a></li>
+            <li className='pinterest'><a href="https://www.pinterest.com/" rel="noreferrer" target='_blank'><Pinterest/></a></li>
             <li className='web'><Web/></li>
           </ul>
         </div>
