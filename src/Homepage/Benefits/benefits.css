@@ -1,8 +1,8 @@
 #Benefits {
-  margin: 0 auto;
+  margin: 60px 0px 0px 0px;
 }
 .bfWrapper {
-  margin: 0 10%;
+  padding: 0rem 7rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -12,12 +12,12 @@
 .bfLeft {
   flex: 1;
   height: 550px;
-  background-color: red;
 }
 .bfLeft img {
   width: 100%;
-  min-height: 100%;
-  object-fit: fill;
+  height: 550px;
+  object-fit: cover;
+  overflow-y: hidden;
   object-position: center;
 }
 .bfRight {
@@ -31,7 +31,6 @@
   align-items: center;
 }
 .bfTitle {
-  font-size: 2rem;
   font-weight: 500;
 }
 .bfCards {
@@ -48,11 +47,33 @@
   flex-direction: column;
 }
 .bfFeature h3 {
-  font-size: 1.25rem;
   font-weight: 500;
 }
 .bfFeature p {
   padding-right: 50px;
   color: gray;
-  font-size: clamp(0.75rem, 51vw, 1rem);
+}
+@media (max-width: 950px) {
+  .bfWrapper {
+    gap: 1rem;
+  }
+  .bfLeft {
+    display: none;
+  }
+  .bfTitle {
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  .bfWrapper {
+    padding: 0rem 2rem;
+  }
+  .bfEach > span {
+    overflow-x: visible;
+  }
+}
+@media (max-width: 400px) {
+  .bfWrapper {
+    padding: 0rem 1rem;
+  }
 }

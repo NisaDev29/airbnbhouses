@@ -41,7 +41,7 @@ const Units = () => {
           </form>
         </div> */}
         <div className="unitWrapper">
-          <h3 className='unitTitle'>ALL UNITS</h3>
+          <h2 className='unitTitle'>ALL UNITS</h2>
           <div className='unitList'>
             {UnitData.map((unit)=>{
               return <ListUnit

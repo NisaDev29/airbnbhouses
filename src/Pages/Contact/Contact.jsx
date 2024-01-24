@@ -50,18 +50,20 @@ const Contact = () => {
             </div>
             <div className="ctContact">
                 <h3>Contact Us</h3>
+                <div className='ctContactWrapper'>
                 <div className='ctMethods'>
                     <h5>Call Us</h5>
-                    <p><PhoneIcon sx={{backgroundColor:"palevioletred", borderRadius:"50%", padding:"3px"}} /> +355 234 234 333</p>
+                    <p><PhoneIcon sx={{backgroundColor:"palevioletred", borderRadius:"50%", padding:"3px", marginRight:'10px'}} /> +355 234 234 333</p>
                 </div>
                 <div  className='ctMethods'>
                     <h5>Email Us</h5>
-                    <p><AlternateEmailIcon sx={{backgroundColor:"palevioletred", borderRadius:"50%", padding:"3px"}}/> example@gmail.com</p>
+                    <p><AlternateEmailIcon sx={{backgroundColor:"palevioletred", borderRadius:"50%", padding:"3px", marginRight:'10px'}}/> example@gmail.com</p>
                 </div>
                 <div  className='ctMethods'>
                     <h5>Address</h5>
-                    <p><PinDropIcon sx={{backgroundColor:"palevioletred", borderRadius:"50%", padding:"3px"}}/> Tirana</p>
-                    <p>Albania</p>
+                    <p><PinDropIcon sx={{backgroundColor:"palevioletred", borderRadius:"50%", padding:"3px", marginRight:'10px'}}/> Tirana, Albania</p>
+                   
+                </div>
                 </div>
             </div>
         </div>

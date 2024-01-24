@@ -8,14 +8,15 @@
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .navWrapper {
-  width: 85%;
+  width: 100%;
+  padding: 0rem 7rem;
   margin: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-.navWrapper h1 {
+.navWrapper h2 {
   text-align: center;
 }
 .navMenu {
@@ -46,4 +47,66 @@
 .navButton:hover {
   background-color: #313638;
   color: white;
+}
+.nav-buton {
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+  display: none;
+  opacity: 0;
+  font-size: 1.8rem;
+}
+
+@media (max-width: 750px) {
+  .navWrapper {
+    padding: 0rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navWrapper > h2 {
+    width: 80%;
+    text-align: unset;
+  }
+  .navWrapper .nav-buton {
+    display: block;
+    opacity: 1;
+  }
+  .navEnd {
+    display: none;
+  }
+  .navMenu {
+    position: fixed;
+    top: 0;
+    left: -100vh;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    transition: 1s;
+    background-color: #313638;
+    z-index: 2;
+  }
+  .navlink {
+    font-size: 1.5rem;
+    color: white;
+  }
+  .navWrapper .responsive_nav {
+    transform: translateX(100vh);
+  }
+  .navWrapper .nav-close {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+}
+@media (max-width: 500px) {
+  .navWrapper {
+    padding: 0rem 2rem;
+  }
 }
