@@ -1,6 +1,10 @@
+.dhomaBottom {
+  margin: 1.8rem 0rem;
+}
 .dhomaTabPanel {
-  width: 85%;
-  margin: auto;
+  width: 100%;
+  padding: 0;
+  margin: 0;
   display: flex;
   flex-direction: row;
   gap: 2rem;
@@ -12,6 +16,9 @@
 }
 .dhomaTabDetails {
   flex: 1;
+}
+.dhomaTabDesc p {
+  margin-bottom: 5px;
 }
 .dhomaTabDetails ul {
   list-style: none;
@@ -48,18 +55,22 @@
   justify-content: flex-start;
   gap: 10px;
   flex-wrap: wrap;
-  height: 320px;
+  height: 300px;
 }
 .dhomaEachFacility span {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.dhomaEachFacility h4 {
-  font-weight: 500;
-  padding-top: 5px;
-}
+
 .dhomaEachFacility ul {
   margin-left: 20px;
   padding-top: 10px;
+}
+
+@media (max-width: 800px) {
+  .dhomaFacility {
+    flex-wrap: nowrap;
+    height: 100%;
+  }
 }

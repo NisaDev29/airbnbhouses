@@ -16,28 +16,38 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import PinterestIcon from '@mui/icons-material/Pinterest';
 import SimilarRooms from "../../Components/SimilarRooms/SimilarRooms";
 import SingleDesc from "../../Components/SingleDesc/SingleDesc";
+import { useState } from "react";
 
 const Dhoma = () => {
   
+    const [images, setImages] = useState({
+        img1 :"https://i.pinimg.com/564x/a2/2e/6b/a22e6b072ab387bed0d9a65bd92d4ce3.jpg",
+        img2 : "https://images.pexels.com/photos/237371/pexels-photo-237371.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img3 : "https://images.pexels.com/photos/210265/pexels-photo-210265.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        img4 : "https://images.pexels.com/photos/1454806/pexels-photo-1454806.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    })
+
+    const [activeImg, setActiveImage] = useState(images.img1)
+
     return (
         <div className="dhoma">
              <Navbar/>
             <div className="dhomaWrapper">
                 <div className="dhomaTop">
                     <div className="dhomaImg">
-                        <img className="dhomaMainImg" src="https://i.pinimg.com/564x/a2/2e/6b/a22e6b072ab387bed0d9a65bd92d4ce3.jpg" alt="" />
+                        <img className="dhomaMainImg" src={activeImg} alt="" />
                         <div className="dhomaOtherImages">
                             <ul>
-                                <li><img src="https://i.pinimg.com/564x/a2/2e/6b/a22e6b072ab387bed0d9a65bd92d4ce3.jpg" alt="" /></li>
-                                <li><img src="https://i.pinimg.com/564x/a2/2e/6b/a22e6b072ab387bed0d9a65bd92d4ce3.jpg" alt="" /></li>
-                                <li><img src="https://i.pinimg.com/564x/a2/2e/6b/a22e6b072ab387bed0d9a65bd92d4ce3.jpg" alt="" /></li>
-                                <li><img src="https://i.pinimg.com/564x/a2/2e/6b/a22e6b072ab387bed0d9a65bd92d4ce3.jpg" alt="" /></li>
+                                <li><img src={images.img1} alt="" onClick={() => setActiveImage(images.img1)} /></li>
+                                <li><img src={images.img2} alt="" onClick={() => setActiveImage(images.img2)}/></li>
+                                <li><img src={images.img3} alt="" onClick={() => setActiveImage(images.img3)}/></li>
+                                <li><img src={images.img4} alt="" onClick={() => setActiveImage(images.img4)}/></li>
                             </ul>
                         </div>
                     </div>
                     <div className="dhomaText">
                         <span className="dhomaCategory">DOUBLE ROOM </span>
-                        <h1 className="dhomaTitle">DOUBLE ROOM WITH A STREET VIEW</h1>
+                        <h2 className="dhomaTitle">DOUBLE ROOM WITH A STREET VIEW</h2>
                         <p className="dhomaSubText">Most popular unit amoung our guests.
                                 Best suited for couple. Equiped with personal bathroom and fridge.
                                 Perfect for a few days in Tirana.</p>

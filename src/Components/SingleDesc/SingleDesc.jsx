@@ -24,10 +24,10 @@ const SingleDesc = () => {
     <div className="dhomaBottom">
                 <Box>
                     <TabContext value={value}>
-                        <Box width="85%" margin="auto"  sx={{borderBottom: 1, borderColor:"divider"}}>
+                        <Box width="90%" margin="auto"  sx={{borderBottom: 1, borderColor:"divider"}}>
                             <TabList  
                                     centered onChange={handleChange}>
-                                <Tab value="1" label='DESCRIPTION' />
+                                <Tab value="1" label='DESCRIPTION'  />
                                 <Tab value="2" label='HOUSE RULES' />
                                 <Tab value="3" label='REVIEWS' />
                             </TabList>
@@ -36,6 +36,7 @@ const SingleDesc = () => {
                             <div className="dhomaTabDesc">
                                 <h3 className="dhomaTabTitle">DESCRIPTION</h3>
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate placeat, asperiores quo adipisci totam modi ipsa assumenda voluptas doloribus. Soluta nesciunt, exercitationem earum corporis sapiente officia incidunt quae mollitia expedita?</p>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur voluptatum rem alias neque, harum vero dolorum rerum, minus magni temporibus commodi aut excepturi? Quis perspiciatis commodi beatae aut mollitia perferendis praesentium a temporibus iure! Vero inventore saepe omnis molestias neque.</p>
                             </div>
                             <div className="dhomaTabDetails">
                                 <h3 className="dhomaTabTitle">DETAILS</h3>
@@ -85,16 +86,16 @@ const SingleDesc = () => {
                             <div className="dhomaFacility">
                             <div className='dhomaEachFacility'>
                                <span><FreeBreakfastIcon/><b> BREAKFAST</b></span>
-                                <h4>Free Breakfast</h4>
+                                <p>Free Breakfast</p>
                                 <p>Croissant, Coffee, Tea, Fruit and Juice</p>
                             </div>
                             <div className='dhomaEachFacility'>
                                 <span><WifiOutlinedIcon/><b> WIFI</b></span>
-                                <h4>WiFi is available in all areas and is free of charge</h4>
+                                <p>WiFi is available in all areas and is free of charge</p>
                             </div>
                             <div className='dhomaEachFacility'>
                                 <span><LocalParkingOutlinedIcon/><b> PARKING</b></span>
-                                <h4>Free Parking on Premise</h4>
+                                <p>Free Parking on Premise</p>
                             </div>
                             <div className='dhomaEachFacility'>
                                 <span><TranslateOutlinedIcon/><b> LANGUAGES SPOKEN</b></span>
