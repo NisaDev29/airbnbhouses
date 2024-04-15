@@ -7,6 +7,8 @@
 ![airbnbhouse_product](https://github.com/NisaDev29/airbnbhouses/assets/143743252/afcdddb4-daec-4b1e-bac8-c44a393a68b7)
 # Contact Page
 ![airbnbhouse_contact](https://github.com/NisaDev29/airbnbhouses/assets/143743252/5d7fc9a2-8130-42bb-a9d5-b94fcbe59138)
+# About Page
+![localhost_3000_about](https://github.com/NisaDev29/airbnbhouses/assets/143743252/cbad55cf-aaa7-48a5-998d-f3cf4417852b)
 
 # Getting Started with Create React App
 
