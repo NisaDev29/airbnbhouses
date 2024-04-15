@@ -53,11 +53,11 @@ const Contact = () => {
                 <div className='ctContactWrapper'>
                 <div className='ctMethods'>
                     <h5>Call Us</h5>
-                    <p><PhoneIcon sx={{backgroundColor:"palevioletred", borderRadius:"50%", padding:"3px", marginRight:'10px'}} /> +355 234 234 333</p>
+                    <p><PhoneIcon sx={{backgroundColor:"palevioletred", borderRadius:"50%", padding:"3px", marginRight:'10px'}} /> +355 69 587 6750</p>
                 </div>
                 <div  className='ctMethods'>
                     <h5>Email Us</h5>
-                    <p><AlternateEmailIcon sx={{backgroundColor:"palevioletred", borderRadius:"50%", padding:"3px", marginRight:'10px'}}/> example@gmail.com</p>
+                    <p><AlternateEmailIcon sx={{backgroundColor:"palevioletred", borderRadius:"50%", padding:"3px", marginRight:'10px'}}/> anisasulaj18@gmail.com</p>
                 </div>
                 <div  className='ctMethods'>
                     <h5>Address</h5>

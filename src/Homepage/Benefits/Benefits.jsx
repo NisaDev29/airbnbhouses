@@ -1,6 +1,6 @@
 import React from 'react';
 import './benefits.css';
-import { WorkRounded } from '@mui/icons-material';
+
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 import BedIcon from '@mui/icons-material/Bed';
 import PaidOutlinedIcon from '@mui/icons-material/PaidOutlined';
@@ -17,7 +17,7 @@ const Benefits = () => {
                 <div className="bfRight">
                     <h4 className='bfSub'>BENEFITS <KeyboardDoubleArrowDownIcon style={{color:"black"}}/></h4>
                     <h2 className='bfTitle'>Why You Should Pick Us</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A fuga labore ut maxime deleniti iure recusandae consectetur sint eius pariatur?</p>
+                    <p>We strive to provide excellence in anything we touch. Only the best of the best for our dear guests.</p>
                     <div className='bfCards'>
                         <div className="bfEach">
                             <span><SupportAgentOutlinedIcon /></span>
